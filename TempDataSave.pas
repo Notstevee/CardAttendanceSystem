@@ -13,6 +13,7 @@ begin
 	
 	//currently the program only do the following procedure once, 
 	//remove comment delimiter for repeat until loop if it is to be run forever
+	
 	//repeat
 		readln(cardid);
 		try
