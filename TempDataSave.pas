@@ -11,7 +11,8 @@ var
 begin
 	Assign(DSout, DSFname); //to declare the text output 'DSout' to the file path
 	
-	//currently the program only do the following procedure once, remove comment tag for until loop if it is to be run forever
+	//currently the program only do the following procedure once, 
+	//remove comment delimiter for repeat until loop if it is to be run forever
 	//repeat
 		readln(cardid);
 		try
