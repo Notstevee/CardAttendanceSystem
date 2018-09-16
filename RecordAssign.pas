@@ -14,7 +14,7 @@ type
 	
 	SkuDayEntryRecord = Record
 		cid: longint;
-		MFEnTime, AFEnTime, MLEnTime, ALEnTime: string;
+		MFEnTime, AFEnTime, MLEnTime, ALEnTime: string; //M for morning, A for afternoon, F for first, L for last
 		MAtt, AAtt: char; //O for on time, L for late, A for absent
 		del: boolean; //indicates if that particular record is deleted
 	end;
