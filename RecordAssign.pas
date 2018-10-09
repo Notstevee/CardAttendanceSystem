@@ -22,8 +22,8 @@ type
 const
 	DSFname = 'TodayDS.txt';
 	ERFname = 'TodayER.dat';
-	Timetable = 'Timetable.db'
-	StdList = 'StudentIDlist.db'
+	Timetable = 'Timetable.db';
+	StdList = 'StudentIDlist.db';
 	
 var
 	RER: array of EntryRecord; //raw dynamic entry record
